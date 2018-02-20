@@ -16,7 +16,7 @@ label {
 }
 
 #ticker {
-    font-size: 24em;
+    font-size: 15em;
     color: #fff;
 }
 
@@ -52,6 +52,6 @@ img {
 }
 
 #times-up > div > div {
-    font-size: .3em;
+    font-size: .2em;
     color: #000;
 }
