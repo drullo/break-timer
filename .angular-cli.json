@@ -9,7 +9,9 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "inpax.png",
+        "computer-magic.mp3"
       ],
       "index": "index.html",
       "main": "main.ts",
