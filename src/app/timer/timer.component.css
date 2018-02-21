@@ -99,4 +99,17 @@ img {
     #ticker {
         font-size: 17em;
     }
+
+    #times-up {
+        padding: 5em;
+    }
+
+    #times-up > div {
+        font-size: 14em;
+        height: 1.5em;
+    }
+
+    #times-up > div > div {
+        font-size: .2em;
+    }
 }
