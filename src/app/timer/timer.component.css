@@ -11,12 +11,14 @@
 }
 
 label {
-    font-size: 8em;
+    /*font-size: 8em;*/
+    font-size: 3em;
     color: #588AB2;
 }
 
 #ticker {
-    font-size: 15em;
+    /*font-size: 15em;*/
+    font-size: 6em;
     color: #fff;
 }
 
@@ -26,24 +28,29 @@ img {
 }
 
 #times-up {
-    background: #2f2f2f url('../../assets/watch-time-late.jpg') center center no-repeat;
+    background-image: url('../../assets/watch-time-late.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     width: 100vw;
     height: 100vh;
     color: #fff;
     display: grid;
     justify-content: center;
-    /*align-content: center;*/
-    padding: 5em;
+    /*padding: 5em;*/
+    padding: 2em;
 }
 
 #times-up > div {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-    font-size: 14em;
+    /*font-size: 14em;*/
+    font-size: 3em;
     color: #af2e25;
     width: 75vw;
-    height: 1.5em;
+    /*height: 1.5em;*/
+    height: 4em;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -52,6 +59,44 @@ img {
 }
 
 #times-up > div > div {
-    font-size: .2em;
+    /*font-size: .2em;*/
     color: #000;
+    font-size: .5em;
+    text-align: center;
+}
+
+/* iPad */
+@media (min-width: 768px) {
+    label {
+        font-size: 5em;
+    }
+
+    #ticker {
+        font-size: 10em;
+    }
+
+    #times-up > div {
+        font-size: 6em;
+    }
+}
+
+/* iPad Pro */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    label {
+        font-size: 8em;
+    }
+
+    #ticker {
+        font-size: 15em;
+    }
+}
+
+@media (min-width: 1824px) {
+    label {
+        font-size: 10em;
+    }
+
+    #ticker {
+        font-size: 17em;
+    }
 }
